@@ -16,9 +16,9 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     /*flex-flow: row wrap;*/
-    justify-content: space-around;
-    align-items: baseline;
-    /*align-content: space-around;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+    align-content: center;
 }
 .caja{
     width: 100px;
@@ -29,4 +29,9 @@ body{
     padding: 20px;
     font-size: 40px;
     color: #fff;
+    /*order: 1;*/
+    flex:1 1 auto;
+}
+.dos{
+    align-self: center;
 }
